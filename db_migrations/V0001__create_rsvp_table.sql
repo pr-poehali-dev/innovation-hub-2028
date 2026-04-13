@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS t_p49309913_innovation_hub_2028.rsvp (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  guests_count INTEGER NOT NULL DEFAULT 1,
+  comment TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

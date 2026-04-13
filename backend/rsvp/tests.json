@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "RSVP get list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
