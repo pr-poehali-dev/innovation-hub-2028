@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Featured from "@/components/Featured";
 import WeddingCalendar from "@/components/WeddingCalendar";
 import RSVPForm from "@/components/RSVPForm";
+import Venue from "@/components/Venue";
 import Promo from "@/components/Promo";
 import Footer from "@/components/Footer";
 
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero />
       <Featured />
       <WeddingCalendar />
+      <Venue />
       <RSVPForm />
       <Promo />
       <Footer />
