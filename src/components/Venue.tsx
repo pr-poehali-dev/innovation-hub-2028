@@ -5,7 +5,7 @@ export default function Venue() {
     <div className="flex flex-col lg:flex-row min-h-screen bg-stone-50">
       <div className="flex-1 h-[400px] lg:h-auto">
         <img
-          src="https://cdn.poehali.dev/projects/5662b6d9-4d91-4f3c-8c21-7a6dd74e41d1/files/92c3d44d-a422-4afe-bf43-5a6fc3b1407d.jpg"
+          src="https://cdn.poehali.dev/projects/5662b6d9-4d91-4f3c-8c21-7a6dd74e41d1/bucket/eae7b536-02ec-4124-a3b9-76b0b35aa9bd.jpg"
           alt="Ресторан Галерея"
           className="w-full h-full object-cover"
         />
