@@ -5,6 +5,7 @@ import WeddingCalendar from "@/components/WeddingCalendar";
 import RSVPForm from "@/components/RSVPForm";
 import Venue from "@/components/Venue";
 import Promo from "@/components/Promo";
+import Countdown from "@/components/Countdown";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <Venue />
       <RSVPForm />
       <Promo />
+      <Countdown />
       <Footer />
     </main>
   );
