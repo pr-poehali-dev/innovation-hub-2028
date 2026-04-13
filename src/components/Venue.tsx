@@ -23,7 +23,7 @@ export default function Venue() {
             <Icon name="MapPin" size={18} className="text-stone-400 mt-0.5 shrink-0" />
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-neutral-400 mb-1">Адрес</p>
-              <p className="text-neutral-800">Белгородская область, Соломино</p>
+              <p className="text-neutral-800">Зелёный пер., 1А, село Соломино,<br />Белгородская область</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
@@ -43,7 +43,7 @@ export default function Venue() {
         </div>
 
         <a
-          href="https://yandex.ru/maps/?text=Ресторан+Галерея+Соломино+Белгородская+область"
+          href="https://yandex.ru/maps/?text=Зелёный+пер.+1А+село+Соломино+Белгородская+область"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-neutral-900 text-white border border-neutral-900 px-6 py-3 text-sm uppercase tracking-[0.2em] transition-all duration-300 hover:bg-stone-50 hover:text-neutral-900 w-fit"
