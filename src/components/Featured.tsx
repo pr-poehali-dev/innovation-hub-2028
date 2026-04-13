@@ -8,14 +8,27 @@ export default function Featured() {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Функции, которые не стоят на месте</h3>
-        <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто список возможностей — живые, дышащие акценты. Каждая функция адаптируется к движению, контексту и настроению,
-          оживляя продукт с первого взгляда.
+      <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1" id="details">
+        <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-neutral-500">Детали торжества</h3>
+        <p className="text-2xl lg:text-4xl mb-10 text-neutral-900 leading-tight">
+          Мы наконец-то решились — и теперь хотим разделить этот день с теми, кто нам дорог.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Подробнее
+        <div className="flex flex-col gap-4 mb-10">
+          <div className="flex flex-col gap-1">
+            <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">Дата</span>
+            <span className="text-lg text-neutral-900">1 августа 2026</span>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">Место</span>
+            <span className="text-lg text-neutral-900">Уточняется</span>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">Дресс-код</span>
+            <span className="text-lg text-neutral-900">Торжественный</span>
+          </div>
+        </div>
+        <button id="rsvp" className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-[0.2em]">
+          Подтвердить присутствие
         </button>
       </div>
     </div>
