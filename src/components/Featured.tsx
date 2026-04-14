@@ -19,17 +19,10 @@ export default function Featured() {
             <span className="text-lg text-neutral-900">1 августа 2026</span>
           </div>
           <div className="flex flex-col gap-1">
-            <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">Место</span>
-            <span className="text-lg text-neutral-900">Уточняется</span>
-          </div>
-          <div className="flex flex-col gap-1">
             <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">Дресс-код</span>
             <span className="text-lg text-neutral-900">Торжественный</span>
           </div>
         </div>
-        <button id="rsvp" className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-[0.2em]">
-          Подтвердить присутствие
-        </button>
       </div>
     </div>
   );

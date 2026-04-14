@@ -33,13 +33,6 @@ export default function Venue() {
               <p className="text-neutral-800">1 августа 2026</p>
             </div>
           </div>
-          <div className="flex items-start gap-4">
-            <Icon name="Car" size={18} className="text-stone-400 mt-0.5 shrink-0" />
-            <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-neutral-400 mb-1">Как добраться</p>
-              <p className="text-neutral-800">Бесплатная парковка на территории</p>
-            </div>
-          </div>
         </div>
 
         <a
