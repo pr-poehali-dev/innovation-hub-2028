@@ -26,7 +26,7 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-6">
-        <p className="md:text-base uppercase tracking-[0.4em] mb-6 opacity-80 text-xl text-[#ffffff] font-normal">
+        <p className="md:text-base uppercase tracking-[0.4em] mb-6 opacity-80 font-normal text-xs text-pink-100">
           Приглашение на свадьбу
         </p>
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-6 leading-none">
@@ -34,7 +34,7 @@ export default function Hero() {
           <span className="font-light italic">&</span><br />
           Екатерина
         </h1>
-        <p className="text-lg md:text-2xl mt-8 opacity-90 tracking-[0.2em] uppercase text-[#ffffff] font-normal">
+        <p className="md:text-2xl mt-8 opacity-90 tracking-[0.2em] uppercase font-normal text-sm text-pink-100">
           1 августа 2026
         </p>
       </div>
