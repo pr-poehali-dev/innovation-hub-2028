@@ -17,9 +17,7 @@ export default function Header({ className }: HeaderProps) {
           <a
             href="#rsvp"
             className="text-white hover:text-neutral-300 transition-colors duration-300 uppercase text-sm tracking-wide"
-          >
-            RSVP
-          </a>
+          >Подтверждение присутствия </a>
         </nav>
       </div>
     </header>
