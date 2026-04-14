@@ -1,6 +1,6 @@
 export default function Gifts() {
   return (
-    <div className="bg-stone-50 py-24 px-6 flex flex-col items-center text-center">
+    <div className="py-24 px-6 flex flex-col items-center text-center bg-pink-100">
       <p className="text-xs uppercase tracking-[0.4em] text-neutral-400 mb-6">Подарки</p>
       <h2 className="text-4xl md:text-5xl text-neutral-900 mb-10 font-light"></h2>
       <p className="text-lg text-neutral-600 max-w-xl leading-relaxed">
