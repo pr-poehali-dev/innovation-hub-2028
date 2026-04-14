@@ -30,8 +30,7 @@ export default function Venue() {
             <Icon name="Clock" size={18} className="text-stone-400 mt-0.5 shrink-0" />
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-neutral-400 mb-1">Начало торжества</p>
-              <p className="text-neutral-800">1 августа 2026 в 16:00
-</p>
+              <p className="text-neutral-800">1 августа 2026 в 15:00</p>
             </div>
           </div>
         </div>
