@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const RSVP_URL = "https://functions.poehali.dev/12ded1e2-ae68-4743-867c-a568daf722f1";
+const RSVP_URL = "https://script.google.com/macros/s/AKfycbxOFLEVKtZQHp5GNWINpSOsTVEeVvVUBI_pmkfKLm2sl3CN-Zfxi2MP-pa9hMFXRkIe/exec";
 
 export default function RSVPForm() {
   const [name, setName] = useState("");
