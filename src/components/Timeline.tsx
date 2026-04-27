@@ -51,7 +51,8 @@ export default function Timeline() {
   return (
     <div className="relative">
       <div className="flex flex-col justify-center px-8 lg:px-16 py-16 bg-white max-w-2xl mx-auto">
-        <p className="text-xs uppercase tracking-[0.4em] text-neutral-400 mb-6">Программа</p>
+        <p className="text-xs uppercase tracking-[0.4em] text-neutral-400 mb-6">
+</p>
         <h2 className="text-4xl md:text-5xl text-neutral-900 mb-12 leading-tight">
           Тайминг<br />
           <span className="italic font-light">дня</span>
