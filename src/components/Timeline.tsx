@@ -49,17 +49,8 @@ export default function Timeline() {
   }, []);
 
   return (
-    <div className="relative flex flex-col lg:flex-row min-h-screen">
-      <div className="flex-1 h-[400px] lg:h-auto relative overflow-hidden">
-        <img
-          src="https://cdn.poehali.dev/projects/5662b6d9-4d91-4f3c-8c21-7a6dd74e41d1/files/02608010-9e02-47a3-9b59-855ce2ff01b6.jpg"
-          alt="Тайминг свадебного дня"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/20" />
-      </div>
-
-      <div className="flex-1 flex flex-col justify-center px-8 lg:px-16 py-16 bg-white">
+    <div className="relative">
+      <div className="flex flex-col justify-center px-8 lg:px-16 py-16 bg-white max-w-2xl mx-auto">
         <p className="text-xs uppercase tracking-[0.4em] text-neutral-400 mb-6">Программа</p>
         <h2 className="text-4xl md:text-5xl text-neutral-900 mb-12 leading-tight">
           Тайминг<br />
