@@ -9,7 +9,7 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1" id="details">
-        <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-neutral-500">Детали торжества</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-[0.3em] text-neutral-500"></h3>
         <p className="text-2xl lg:text-4xl mb-10 text-neutral-900 leading-tight">
           Мы наконец-то решились — и теперь хотим разделить этот день с теми, кто нам дорог.
         </p>
