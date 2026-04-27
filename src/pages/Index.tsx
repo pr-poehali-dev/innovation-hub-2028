@@ -4,6 +4,7 @@ import Featured from "@/components/Featured";
 import WeddingCalendar from "@/components/WeddingCalendar";
 import RSVPForm from "@/components/RSVPForm";
 import Venue from "@/components/Venue";
+import Timeline from "@/components/Timeline";
 import Gifts from "@/components/Gifts";
 import Promo from "@/components/Promo";
 import Countdown from "@/components/Countdown";
@@ -17,6 +18,7 @@ const Index = () => {
       <Featured />
       <WeddingCalendar />
       <Venue />
+      <Timeline />
       <Gifts />
       <RSVPForm />
       <Promo />
