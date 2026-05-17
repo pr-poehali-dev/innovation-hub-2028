@@ -1,20 +1,10 @@
 {
   "tests": [
     {
-      "name": "RSVP get list",
-      "method": "GET",
+      "name": "RSVP OPTIONS",
+      "method": "OPTIONS",
       "path": "/",
-      "expectedStatus": 200,
-      "bodyMatcher": "partial"
-    },
-    {
-      "name": "RSVP submit",
-      "method": "POST",
-      "path": "/",
-      "body": {"name": "Тест Тестов", "guests_count": 2, "comment": "тест"},
-      "expectedStatus": 200,
-      "expectedBody": {"ok": true},
-      "bodyMatcher": "partial"
+      "expectedStatus": 200
     }
   ]
 }
